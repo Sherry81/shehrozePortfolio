@@ -6,7 +6,7 @@ const https = require("https");
 const sharp = require("sharp");
 
 const AVATAR_URL =
-  "https://avatars.githubusercontent.com/u/19214455?u=b28e13271597b69c5eb75f752553c7fe79af6091&v=4";
+  "https://avatars.githubusercontent.com/u/33123874?u=91cc2abf7407e886b42b853050cec41082120c23&v=4";
 const OUT_PUBLIC = path.join(__dirname, "..", "public", "og-banner.png");
 const OUT_BUILD = path.join(__dirname, "..", "build", "og-banner.png");
 
@@ -64,8 +64,8 @@ const background = Buffer.from(`
 
   <rect x="82" y="346" width="60" height="5" rx="2.5" fill="#55d6c2"/>
 
-  <text x="80" y="404" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#c9c5f0">7+ years building enterprise-scale web apps</text>
-  <text x="80" y="440" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#c9c5f0">React • Next.js • Node.js • Ruby on Rails • AWS</text>
+  <text x="80" y="404" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#c9c5f0">6+ years building enterprise-scale web apps</text>
+  <text x="80" y="440" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#c9c5f0">React • React native • Next.js • Node.js • Ruby on Rails • AWS</text>
 
   <text x="80" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#ffffff" opacity="0.85">sherry81.github.io</text>
 
