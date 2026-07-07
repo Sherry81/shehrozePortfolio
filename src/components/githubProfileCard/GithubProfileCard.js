@@ -46,13 +46,13 @@ export default function GithubProfileCard({ prof }) {
                 Open for opportunities: {prof.hireable}
               </span>
             </div>
-            <div className="opp-div">
-              <span className="desc-prof opacity-50">
+            <div>
+              <span className="contact-details">
                 Email: shehrozeali81@gmail.com
               </span>
             </div>
-            <div className="opp-div">
-              <span className="desc-prof opacity-50">
+            <div>
+              <span className="contact-details">
                 Phone: +92-330 837 0903
               </span>
             </div>
